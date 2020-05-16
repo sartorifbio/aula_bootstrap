@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Minha página</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css"><!--Importar bootstrap do css-->
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light margin"><!--barra de navegação que está no conjunto do bootstrap. Os parâmetros podem ser acessados no https://getbootstrap.com/docs/4.5/components/navbar/-->
+            <a class="navbar-brand">
+                <img src="img/cifroes.jpg" width="220px" height="80px"> 
+            </a>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#quemsomos">Quem somos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#parceiros">Parceiros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#servicos">Serviços</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <section id="quemsomos">
+            <div class="container-fluid quem-somos text-center margin">
+                <h3 class="margin">Quem somos</h3>
+                <img src="img/team.jpeg" class="rounded-circle" width="300px" height="300px">
+                <h3>Somos um time comprometido com os resultados</h3>
+            </div>
+        </section>
+
+        <section id="parceiros">
+            <div class="container-fluid parceiros text-center margin">
+                <h3 class="margin">Parceiros</h3>
+                <div class="container">     
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <img src="img/empresas.jpeg" class="rounded-circle" width="300px" height="300px">
+                        </div>
+                        <div class="col-lg-4">
+                            <img src="img/tecnologia.jpeg" class="rounded-circle" width="300px" height="300px">
+                        </div>
+                        <div class="col-lg-4">
+                            <img src="img/aplicativo.jpeg" class="rounded-circle" width="300px"height="300px">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="servicos">
+            <div class="container-fluid text-center margin servicos">
+                <h3 class="margin">SERVIÇOS</h3>
+                <div class="container margin">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <p>Os nossos serviços são especiais, elegantes e diferenciais.</p>
+                            <img src="img/aplicativo.jpeg" width="100%">
+                        </div>
+                        <div class="col-lg-4">
+                            <p>Serviços diferentes para uma solução diferente</p>
+                            <img src="img/cliente 2.jpeg" width="100%">
+                        </div>
+                        <div class="col-lg-4">
+                            <p>Serviços diferentes para uma solução com um toque a mais.</p>
+                            <img src="img/email-blocks-on-gray-surface-1591062.jpg" width="100%">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="container-fluid text-center bg-footer margin">
+            <p>Desenvolvido por Fabio Sartori</p>
+        </footer>
+    </body>
+</html>
